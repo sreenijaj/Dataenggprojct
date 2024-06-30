@@ -1,48 +1,27 @@
 
+## Using aws cli , uploading the json file onto s3 bucket which is raw data 
 
-(new-env) sreenija.jallipeta@Sreenijas-MacBook-Air Data % aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/CA_category_id.json" s3://de-on--youtube-prj-rawdata/
-upload: ./CA_category_id.json to s3://de-on--youtube-prj-rawdata/CA_category_id.json
-(new-env) sreenija.jallipeta@Sreenijas-MacBook-Air Data % aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/DE_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
-upload: ./DE_category_id.json to s3://de-on--youtube-prj-rawdata/DE_category_id.json
-(new-env) sreenija.jallipeta@Sreenijas-MacBook-Air Data % aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/FR_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
-upload: ./FR_category_id.json to s3://de-on--youtube-prj-rawdata/FR_category_id.json
-(new-env) sreenija.jallipeta@Sreenijas-MacBook-Air Data % aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/GB_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
-upload: ./GB_category_id.json to s3://de-on--youtube-prj-rawdata/GB_category_id.json
-(new-env) sreenija.jallipeta@Sreenijas-MacBook-Air Data % aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/IN_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
-upload: ./IN_category_id.json to s3://de-on--youtube-prj-rawdata/IN_category_id.json
-(new-env) sreenija.jallipeta@Sreenijas-MacBook-Air Data % aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/JP_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
-upload: ./JP_category_id.json to s3://de-on--youtube-prj-rawdata/JP_category_id.json
-(new-env) sreenija.jallipeta@Sreenijas-MacBook-Air Data % aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/KR_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
-upload: ./KR_category_id.json to s3://de-on--youtube-prj-rawdata/KR_category_id.json
-(new-env) sreenija.jallipeta@Sreenijas-MacBook-Air Data % aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/MX_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
-upload: ./MX_category_id.json to s3://de-on--youtube-prj-rawdata/MX_category_id.json
-(new-env) sreenija.jallipeta@Sreenijas-MacBook-Air Data % aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/RU_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
-upload: ./RU_category_id.json to s3://de-on--youtube-prj-rawdata/RU_category_id.json
-(new-env) sreenija.jallipeta@Sreenijas-MacBook-Air Data % aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/US_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
-upload: ./US_category_id.json to s3://de-on--youtube-prj-rawdata/US_category_id.json
+aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/CA_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
 
+aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/DE_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
 
-aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/CA_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_data
+aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/FR_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
 
-aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/DE_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_data
+aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/GB_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
 
-aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/FR_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_data
+aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/IN_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
 
-aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/GB_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_data
+aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/JP_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
 
-aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/IN_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_data
+aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/KR_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
 
-aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/JP_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_data
+aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/MX_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
 
-aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/KR_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_data
+aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/RU_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
 
-aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/MX_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_data
+aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/US_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
 
-aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/RU_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_data
-
-aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/US_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_data
-
-
+## How to divide files based on region onto s3 bucket 
 
 aws s3 cp CAvideos.csv s3://de-on--youtube-prj-rawdata/youtube/raw_data/region=ca/
 aws s3 cp DEvideos.csv s3://de-on--youtube-prj-rawdata/youtube/raw_data/region=de/
@@ -55,9 +34,4 @@ aws s3 cp MXvideos.csv s3://de-on--youtube-prj-rawdata/youtube/raw_data/region=m
 aws s3 cp RUvideos.csv s3://de-on--youtube-prj-rawdata/youtube/raw_data/region=ru/
 aws s3 cp USvideos.csv s3://de-on--youtube-prj-rawdata/youtube/raw_data/region=us/
 
-
-
-summary point wise
-present cognizant two points 
-project points wise 
 
