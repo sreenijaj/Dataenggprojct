@@ -1,0 +1,63 @@
+
+
+(new-env) sreenija.jallipeta@Sreenijas-MacBook-Air Data % aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/CA_category_id.json" s3://de-on--youtube-prj-rawdata/
+upload: ./CA_category_id.json to s3://de-on--youtube-prj-rawdata/CA_category_id.json
+(new-env) sreenija.jallipeta@Sreenijas-MacBook-Air Data % aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/DE_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
+upload: ./DE_category_id.json to s3://de-on--youtube-prj-rawdata/DE_category_id.json
+(new-env) sreenija.jallipeta@Sreenijas-MacBook-Air Data % aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/FR_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
+upload: ./FR_category_id.json to s3://de-on--youtube-prj-rawdata/FR_category_id.json
+(new-env) sreenija.jallipeta@Sreenijas-MacBook-Air Data % aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/GB_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
+upload: ./GB_category_id.json to s3://de-on--youtube-prj-rawdata/GB_category_id.json
+(new-env) sreenija.jallipeta@Sreenijas-MacBook-Air Data % aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/IN_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
+upload: ./IN_category_id.json to s3://de-on--youtube-prj-rawdata/IN_category_id.json
+(new-env) sreenija.jallipeta@Sreenijas-MacBook-Air Data % aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/JP_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
+upload: ./JP_category_id.json to s3://de-on--youtube-prj-rawdata/JP_category_id.json
+(new-env) sreenija.jallipeta@Sreenijas-MacBook-Air Data % aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/KR_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
+upload: ./KR_category_id.json to s3://de-on--youtube-prj-rawdata/KR_category_id.json
+(new-env) sreenija.jallipeta@Sreenijas-MacBook-Air Data % aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/MX_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
+upload: ./MX_category_id.json to s3://de-on--youtube-prj-rawdata/MX_category_id.json
+(new-env) sreenija.jallipeta@Sreenijas-MacBook-Air Data % aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/RU_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
+upload: ./RU_category_id.json to s3://de-on--youtube-prj-rawdata/RU_category_id.json
+(new-env) sreenija.jallipeta@Sreenijas-MacBook-Air Data % aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/US_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_statistics_reference_data/
+upload: ./US_category_id.json to s3://de-on--youtube-prj-rawdata/US_category_id.json
+
+
+aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/CA_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_data
+
+aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/DE_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_data
+
+aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/FR_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_data
+
+aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/GB_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_data
+
+aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/IN_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_data
+
+aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/JP_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_data
+
+aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/KR_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_data
+
+aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/MX_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_data
+
+aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/RU_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_data
+
+aws s3 cp "/Users/sreenija.jallipeta/Dev/Dataenggprj/Data/US_category_id.json" s3://de-on--youtube-prj-rawdata/youtube/raw_data
+
+
+
+aws s3 cp CAvideos.csv s3://de-on--youtube-prj-rawdata/youtube/raw_data/region=ca/
+aws s3 cp DEvideos.csv s3://de-on--youtube-prj-rawdata/youtube/raw_data/region=de/
+aws s3 cp FRvideos.csv s3://de-on--youtube-prj-rawdata/youtube/raw_data/region=fr/
+aws s3 cp GBvideos.csv s3://de-on--youtube-prj-rawdata/youtube/raw_data/region=gb/
+aws s3 cp INvideos.csv s3://de-on--youtube-prj-rawdata/youtube/raw_data/region=in/
+aws s3 cp JPvideos.csv s3://de-on--youtube-prj-rawdata/youtube/raw_data/region=jp/
+aws s3 cp KRvideos.csv s3://de-on--youtube-prj-rawdata/youtube/raw_data/region=kr/
+aws s3 cp MXvideos.csv s3://de-on--youtube-prj-rawdata/youtube/raw_data/region=mx/
+aws s3 cp RUvideos.csv s3://de-on--youtube-prj-rawdata/youtube/raw_data/region=ru/
+aws s3 cp USvideos.csv s3://de-on--youtube-prj-rawdata/youtube/raw_data/region=us/
+
+
+
+summary point wise
+present cognizant two points 
+project points wise 
+
